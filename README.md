@@ -5,6 +5,7 @@ The project is used as my Bachelor's thesis "Social Network in Blazor WebAssembl
 # What I Learned
 
 * Blazor WebAssembly
+* Code First database programming.
 * SignalR used for notifying clients.
 * REST Api using ASP.NET Core as a backend.
 * Redux pattern using Fluxor
