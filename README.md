@@ -7,6 +7,7 @@ The project is used as my Bachelor's thesis "Social Network in Blazor WebAssembl
 * Blazor WebAssembly
 * Code First database programming.
 * SignalR used for notifying clients.
+* Microsoft Identity
 * REST Api using ASP.NET Core as a backend.
 * Redux pattern using Fluxor
 * Entity Framework Core
