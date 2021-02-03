@@ -13,7 +13,7 @@ namespace SocialNetworkBlazor.Client.Pages
         protected Task<AuthenticationState> AuthenticationState { get; set; }
         [Inject]
         private IState<PostState> PostState { get; set; }
-
+        
         [Inject]
         public IDispatcher Dispatcher { get; set; }
 
@@ -24,7 +24,6 @@ namespace SocialNetworkBlazor.Client.Pages
                 return;
 
             Dispatcher.Dispatch(new GetPostsAction("cf7bf6b8-0089-4b4b-86fd-6f4a3bf2a692"));
-
             await base.OnInitializedAsync();
         }
     }
